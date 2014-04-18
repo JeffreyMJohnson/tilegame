@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_difficulty_list">
+        <item>@string/radio_easy</item>
+        <item>@string/radio_medium</item>
+        <item>@string/radio_hard</item>
+    </string-array>
+
+</resources>

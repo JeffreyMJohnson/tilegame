@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Katie\'s Tile Game</string>
+    <string name="settings">Settings</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="new_game">New</string>
+    <string name="choose_image_label">Choose image to use in puzzle.</string>
+    <string name="difficulty_dialog_title">Difficulty</string>
+    <string name="radio_easy">Easy (3X3)</string>
+    <string name="radio_medium">Medium (4X4)</string>
+    <string name="radio_hard">Hard (5X5)</string>
+    <string name="win_label">You Win!!</string>
+    <string name="try_another_label">Try another puzzle?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="win_dialog_title">Congratulations, you solved it!!</string>
+    <string name="total_moves_pre">It took you</string>
+    <string name="total_moves_post">moves to solve the puzzle.  Would you like to play another puzzle?</string>
+
+</resources>

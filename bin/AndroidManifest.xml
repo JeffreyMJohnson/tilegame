@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.jeffreymjohnson.tilegame"
+    android:versionCode="2"
+    android:versionName="1.1" 
+    android:installLocation="preferExternal">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="net.jeffreymjohnson.tilegame" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_tilegame"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <uses-library android:name="android.test.runner" />
+        <activity
+            android:name="net.jeffreymjohnson.tilegame.PlayGameActivity"
+            android:label="@string/app_name" >
+            <meta-data 
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.jeffreymjohnson.tilegame.ChooseImageActivity"/>
+        </activity>
+        <activity
+            android:name="net.jeffreymjohnson.tilegame.ChooseImageActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

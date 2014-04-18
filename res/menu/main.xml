@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/settings"
+        android:showAsAction="ifRoom"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_menu_settings_holo_light">
+        <menu >
+            <item android:id="@+id/difficulty"
+                android:title="@string/difficulty"
+                android:showAsAction="withText"/>
+            <item android:id="@+id/shuffle"
+                android:title="@string/shuffle"
+                android:showAsAction="withText" />
+            <item android:id="@+id/newGame"
+                android:title="@string/new_game"
+                android:showAsAction="withText"/>
+        </menu>
+        </item>
+
+</menu>
